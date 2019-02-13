@@ -11,4 +11,4 @@ DISC adopts deep learning to learn specific patterns within predicted inter-resi
 
 1. Set your config in `./libs/config/config_v1.py`;
 2. Specify your raw data path in `read_into_tfrecord.py`, put your data in the path (Example in `./data/rawdata`) and run `python read_into_tfrecord.py` for tfrecord generation;
-3. Run `train.py` for training.
+3. Run `python train.py` for training.
