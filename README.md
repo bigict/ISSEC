@@ -4,6 +4,7 @@ DISC adopts deep learning to learn specific patterns within predicted inter-resi
 
 ## Requirements
 
+- [Python 2.7.14](https://www.python.org/downloads/release/python-2714/)
 - [Tensorflow-gpu](https://www.tensorflow.org/install/install_linux)
 - [Numpy](https://github.com/numpy/numpy/blob/master/INSTALL.rst.txt)
 
