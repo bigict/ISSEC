@@ -46,10 +46,10 @@ def add_to_tfrecord():
         os.makedirs(record_path)
 
     ####### Path Definition #######
-    img_path = "data/rawdata/ccmpred/"
-    ss3_path = "data/rawdata/ss3/"
-    pdb_path = "data/rawdata/pdb/"
-    fasta_path = "data/rawdata/fasta/"
+    img_path = "data/traindata/ccmpred/"
+    ss3_path = "data/traindata/ss3/"
+    pdb_path = "data/traindata/pdb/"
+    fasta_path = "data/traindata/fasta/"
 
     with open('data/train.list') as fin:
         names = [line.rstrip() for line in fin]
