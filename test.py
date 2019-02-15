@@ -28,7 +28,7 @@ tf.app.flags.DEFINE_string('s', '', 'kernel')
 datasetlist = ['psicov', 'mem30', 'mem11', 'BetaSheet186']
 
 def parse_arguments():
-    parser = argparse.ArgumentParser(description="Script for testing model", usage='%(prog)s <-m model_path> <-d dataset> [options]', add_help=False)
+    parser = argparse.ArgumentParser(description="Script for testing model", usage='python %(prog)s -m <model_path> -d <dataset name> [options]', add_help=False)
     
     input_args = parser.add_argument_group('Input arguments')
     input_args.add_argument('-m', '--model', metavar='<model_path>', help='Input model path')
