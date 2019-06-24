@@ -1,4 +1,4 @@
-# DISC
+# ISSEC
 
 DISC adopts deep learning to learn specific patterns within predicted inter-residue contacts and subsequently identifies the objects having these patterns as inter-SSE contacts.
 
