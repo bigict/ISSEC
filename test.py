@@ -3,8 +3,8 @@ import numpy as np
 import argparse
 import sys
 
-from utils.proteinINFO import proteinINFO
-from utils.matrix4sse import matrix4sse
+#from utils.proteinINFO import proteinINFO
+#from utils.matrix4sse import matrix4sse
 
 import libs.preprocessings.utils as preprocess_utils
 import libs.configs.config_v1 as cfg
